@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "KJ Enterprises Luxury Living",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title"
+        },
+        "price": {
+          "type": "price"
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector"
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "trust_badges": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'kj-trust-badges' %}"
+          }
+        },
+        "description": {
+          "type": "description"
+        },
+        "tab_sizing": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions & Sizing Guide",
+            "icon": "ruler",
+            "content": "<p><strong>Bedsheets:</strong><br>• King Size: 108\" x 108\" (274 cm x 274 cm) + 2 Pillow Covers (18\" x 27\")<br>• Queen Size: 90\" x 100\" (228 cm x 254 cm) + 2 Pillow Covers<br>• Single Bed: 60\" x 90\" (152 cm x 228 cm) + 1 Pillow Cover</p><p><strong>Comforters:</strong><br>• King/Double: 90\" x 100\"<br>• Single: 60\" x 90\"</p><p><strong>Cushion Covers:</strong> 16\" x 16\" & 18\" x 18\" with invisible zipper.</p><p><strong>Curtains:</strong> Window (5 ft), Door (7 ft), Long Door (9 ft).</p>"
+          }
+        },
+        "tab_fabric": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fabric & Thread Count Specifications",
+            "icon": "leaf",
+            "content": "<p>• <strong>Material:</strong> 100% Long-Staple Combed Cotton<br>• <strong>Weave:</strong> Silky 400 Thread Count Luminous Sateen<br>• <strong>Safety:</strong> OEKO-TEX Standard 100 Certified Non-Toxic Dyes<br>• <strong>Breathability:</strong> Naturally thermo-regulating for year-round comfort</p>"
+          }
+        },
+        "tab_care": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wash & Care Instructions",
+            "icon": "washing",
+            "content": "<p>• Machine wash cold on a gentle cycle (max 30°C / 86°F)<br>• Use mild liquid detergent; avoid bleach or harsh fabric softeners<br>• Tumble dry on low heat or line dry in the shade to preserve natural fiber softness<br>• Warm iron if desired for that crisp hotel finish</p>"
+          }
+        },
+        "tab_shipping": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & 7-Day Exchange Policy",
+            "icon": "return",
+            "content": "<p>• <strong>Dispatch:</strong> Orders dispatched within 24-48 hours from our fulfillment hub.<br>• <strong>Delivery:</strong> Express pan-India delivery within 3-5 business days.<br>• <strong>Hassle-Free Exchange:</strong> If you are not delighted with the color or fit, exchange within 7 days of delivery.</p>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share this product"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "trust_badges",
+        "description",
+        "tab_sizing",
+        "tab_fabric",
+        "tab_care",
+        "tab_shipping",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "sticky_atc": {
+      "type": "kj-sticky-atc",
+      "settings": {}
+    },
+    "related_products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Complete Your Bedroom Sanctuary",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sticky_atc",
+    "related_products"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "K J ENTERPRISES",
+  "category": "Home Furnishing & Décor",
+  "tagline": "Style Meets Comfort",
+  "shortStatement": "Thoughtfully designed home furnishings for beautiful, comfortable living.",
+  "overview": "K J ENTERPRISES presents a refined portfolio of home textiles, encompassing bedsheets, comforters, cushion covers, and curtains. Each piece is developed with an emphasis on calm modern aesthetics, tactile comfort, and architectural simplicity.",
+  "philosophy": [
+    {
+      "title": "Aesthetic Balance",
+      "description": "Creating serene living environments through clean lines, balanced textures, and a disciplined monochromatic palette."
+    },
+    {
+      "title": "Everyday Comfort",
+      "description": "Focusing on the tactile experience of home textiles that bring relaxation and ease to modern living spaces."
+    },
+    {
+      "title": "Architectural Proportion",
+      "description": "Designing textiles that integrate naturally with contemporary residential interiors and furniture."
+    }
+  ],
+  "contactPlaceholders": {
+    "phone": "+91 88658 74772",
+    "email": "kji752743@gmail.com",
+    "address": "[BUSINESS ADDRESS]",
+    "operatingHours": "Monday – Saturday: 10:00 AM – 6:00 PM IST"
+  }
+}

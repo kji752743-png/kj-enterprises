@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main":{"type":"main-page","settings":{"padding_top":48,"padding_bottom":28}},
+    "brand_story":{
+      "type":"kj-fabric-guide",
+      "settings":{
+        "badge":"Our Heritage & Passion",
+        "heading":"Redefining Comfort for Modern Indian Homes",
+        "text":"KJ Enterprises was founded on a single belief: your home deserves only the finest. We work directly with master weavers to bring hotel-grade luxury to everyday Indian homes — from the crisp coolness of 400TC bedsheets to the gentle warmth of our cloud-soft comforters, vivid cushion covers, and beautifully draping curtains.",
+        "color_scheme":"scheme-2",
+        "feat_1_title":"Direct from Weavers",
+        "feat_1_desc":"No middlemen — we partner directly with skilled artisans for honest luxury pricing.",
+        "feat_2_title":"100% Breathable Cotton",
+        "feat_2_desc":"Natural fibres that breathe with your body and keep allergens away.",
+        "feat_3_title":"Ethical & Eco-Friendly",
+        "feat_3_desc":"Sustainable packaging and non-toxic dyes safe for your family and planet.",
+        "feat_4_title":"Built to Last",
+        "feat_4_desc":"Rigorous durability tests ensure our textiles stay beautiful for years."
+      }
+    },
+    "editorial_about":{
+      "type":"kj-editorial",
+      "settings":{
+        "badge":"Our Philosophy",
+        "heading":"Quality That You Can Feel",
+        "text":"We believe in transparency — from the source of our cotton to the hands that weave each thread. Every KJ product undergoes rigorous quality control to ensure it meets our exacting standards before it reaches your home.",
+        "button_label":"Shop Our Collections",
+        "button_link":"shopify://collections/all",
+        "reverse_layout":true,
+        "color_scheme":"scheme-1"
+      }
+    },
+    "usp_footer":{
+      "type":"kj-usp-banner",
+      "blocks":{
+        "usp_1":{"type":"usp_item","settings":{"icon":"cotton","title":"100% Pure Cotton","description":"Chemical-free, skin-friendly fibres"}},
+        "usp_2":{"type":"usp_item","settings":{"icon":"thread","title":"400+ Thread Count","description":"Lustrous finish and lasting durability"}},
+        "usp_3":{"type":"usp_item","settings":{"icon":"wash","title":"Easy Machine Wash","description":"Colorfast and pre-shrunk"}},
+        "usp_4":{"type":"usp_item","settings":{"icon":"shipping","title":"Free Pan-India Shipping","description":"Fast dispatch on orders above ₹999"}}
+      },
+      "block_order":["usp_1","usp_2","usp_3","usp_4"],
+      "settings":{"color_scheme":"scheme-1"}
+    }
+  },
+  "order":["main","brand_story","editorial_about","usp_footer"]
+}

@@ -1,0 +1,134 @@
+<div class="kj-categories-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="kj-section-header">
+    {% if section.settings.subheading != blank %}
+      <span class="kj-badge">{{ section.settings.subheading }}</span>
+    {% endif %}
+    {% if section.settings.title != blank %}
+      <h2>{{ section.settings.title }}</h2>
+    {% endif %}
+    {% if section.settings.description != blank %}
+      <p>{{ section.settings.description }}</p>
+    {% endif %}
+  </div>
+  <div class="kj-category-grid">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.url | default: '#' }}" class="kj-category-card" {{ block.shopify_attributes }}>
+        <div class="kj-cat-media">
+          {% if block.settings.image != blank %}
+            {{ block.settings.image | image_url: width: 600 | image_tag: loading: 'lazy' }}
+          {% else %}
+            {% case block.settings.category_type %}
+              {% when 'bedsheets' %}
+                <img src="{{ 'hero_bed_sheets.jpg' | asset_url }}" alt="Bedsheets" loading="lazy">
+              {% when 'comforters' %}
+                <img src="{{ 'category_comforters.jpg' | asset_url }}" alt="Comforters" loading="lazy">
+              {% when 'cushions' %}
+                <img src="{{ 'category_cushions.jpg' | asset_url }}" alt="Cushions" loading="lazy">
+              {% when 'curtains' %}
+                <img src="{{ 'category_curtains.jpg' | asset_url }}" alt="Curtains" loading="lazy">
+            {% endcase %}
+          {% endif %}
+        </div>
+        <div class="kj-cat-overlay">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.subtext }}</p>
+          <span class="kj-cat-arrow-btn">
+            {{ block.settings.btn_label }}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "KJ Category Grid",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Our Collections"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Shop By Category"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category_card",
+      "name": "Category Card",
+      "settings": [
+        {
+          "type": "select",
+          "id": "category_type",
+          "label": "Category Type (Placeholder Icon)",
+          "options": [
+            {"value": "bedsheets", "label": "Bedsheets"},
+            {"value": "comforters", "label": "Comforters"},
+            {"value": "cushions", "label": "Cushions"},
+            {"value": "curtains", "label": "Curtains"}
+          ],
+          "default": "bedsheets"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Bedsheets & Sets"
+        },
+        {
+          "type": "text",
+          "id": "subtext",
+          "label": "Subtext",
+          "default": "King, Queen & Single"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        },
+        {
+          "type": "text",
+          "id": "btn_label",
+          "label": "Button Label",
+          "default": "Shop Now"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "KJ Category Grid"
+    }
+  ]
+}
+{% endschema %}

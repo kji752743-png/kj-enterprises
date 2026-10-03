@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main_form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Send Us a Message",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 44,
+        "padding_bottom": 32
+      }
+    },
+    "contact_info_faq": {
+      "type": "kj-contact-info",
+      "settings": {
+        "color_scheme": "scheme-2"
+      }
+    }
+  },
+  "order": [
+    "main_form",
+    "contact_info_faq"
+  ]
+}

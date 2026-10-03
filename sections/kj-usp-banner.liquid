@@ -1,0 +1,83 @@
+<div class="kj-usp-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="kj-usp-container page-width">
+    {% for block in section.blocks %}
+      <div class="kj-usp-item" {{ block.shopify_attributes }}>
+        <div class="kj-usp-icon-wrap">
+          {% case block.settings.icon %}
+            {% when 'cotton' %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            {% when 'thread' %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg>
+            {% when 'wash' %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="12" cy="13" r="5"/><path d="M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 0 0 5 2.5 2.5 0 0 1 0 5Z"/></svg>
+            {% when 'shipping' %}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          {% endcase %}
+        </div>
+        <div class="kj-usp-content">
+          <h4>{{ block.settings.title }}</h4>
+          <p>{{ block.settings.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "KJ USP Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "usp_item",
+      "name": "USP Item",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {"value": "cotton", "label": "Cotton"},
+            {"value": "thread", "label": "Thread"},
+            {"value": "wash", "label": "Wash"},
+            {"value": "shipping", "label": "Shipping"}
+          ],
+          "default": "cotton"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Free Shipping"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "On all orders"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "KJ USP Banner",
+      "blocks": [
+        {"type": "usp_item"},
+        {"type": "usp_item"},
+        {"type": "usp_item"},
+        {"type": "usp_item"}
+      ]
+    }
+  ]
+}
+{% endschema %}

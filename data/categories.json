@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cat-bedsheets",
+    "slug": "bedsheets",
+    "name": "Bedsheets",
+    "tagline": "Restful Sophistication",
+    "description": "Refined bedding designed with clean finishes, soothing tactile texture, and enduring drape for restful bedrooms.",
+    "heroImage": "/images/categories/bedsheets.jpg"
+  },
+  {
+    "id": "cat-comforters",
+    "slug": "comforters",
+    "name": "Comforters",
+    "tagline": "Subtle Warmth & Weight",
+    "description": "Tailored all-season comforters providing balanced insulation, plush softness, and contemporary bedroom styling.",
+    "heroImage": "/images/categories/comforters.jpg"
+  },
+  {
+    "id": "cat-cushions",
+    "slug": "cushion-covers",
+    "name": "Cushion Covers",
+    "tagline": "Architectural Accents",
+    "description": "Structured decorative cushion covers crafted to complement minimalist sofas, lounge chairs, and bed layering.",
+    "heroImage": "/images/categories/cushions.jpg"
+  },
+  {
+    "id": "cat-curtains",
+    "slug": "curtains",
+    "name": "Curtains",
+    "tagline": "Light & Spatial Presence",
+    "description": "Gracefully draping curtain panels engineered for ambient light filtration, privacy, and architectural ceiling-to-floor elevation.",
+    "heroImage": "/images/categories/curtains.jpg"
+  }
+]

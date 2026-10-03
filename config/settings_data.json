@@ -1,0 +1,196 @@
+{
+  "current": "Dawn",
+  "presets": {
+    "Dawn": {
+      "logo_width": 120,
+      "customer_account_menu": "customer-account-main-menu",
+      "color_schemes": {
+        "scheme-1": {
+          "settings": {
+            "background": "#FAF8F4",
+            "background_gradient": "",
+            "text": "#1A1F1C",
+            "button": "#B85C3C",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#1A1F1C",
+            "shadow": "#1A1F1C"
+          }
+        },
+        "scheme-2": {
+          "settings": {
+            "background": "#F0EBE1",
+            "background_gradient": "",
+            "text": "#1A1F1C",
+            "button": "#1A1F1C",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#1A1F1C",
+            "shadow": "#1A1F1C"
+          }
+        },
+        "scheme-3": {
+          "settings": {
+            "background": "#1A1F1C",
+            "background_gradient": "",
+            "text": "#FAF8F4",
+            "button": "#B85C3C",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#FAF8F4",
+            "shadow": "#0D0F0E"
+          }
+        },
+        "scheme-4": {
+          "settings": {
+            "background": "#4A6350",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#1A1F1C",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#0D0F0E"
+          }
+        },
+        "scheme-5": {
+          "settings": {
+            "background": "#B85C3C",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#1A1F1C",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#0D0F0E"
+          }
+        }
+      },
+      "type_header_font": "assistant_n4",
+      "heading_scale": 105,
+      "type_body_font": "assistant_n4",
+      "body_scale": 100,
+      "page_width": 1300,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 12,
+      "spacing_grid_vertical": 12,
+      "animations_reveal_on_scroll": true,
+      "animations_hover_elements": "3d-lift",
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 6,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 6,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 6,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "card",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "scheme-1",
+      "card_border_thickness": 1,
+      "card_border_opacity": 20,
+      "card_corner_radius": 10,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "card",
+      "collection_card_image_padding": 0,
+      "collection_card_text_alignment": "center",
+      "collection_card_color_scheme": "scheme-1",
+      "collection_card_border_thickness": 1,
+      "collection_card_border_opacity": 20,
+      "collection_card_corner_radius": 10,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "standard",
+      "blog_card_image_padding": 0,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "scheme-2",
+      "blog_card_border_thickness": 0,
+      "blog_card_border_opacity": 10,
+      "blog_card_corner_radius": 0,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 6,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 10,
+      "media_radius": 6,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 10,
+      "popup_shadow_opacity": 5,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 10,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 15,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 20,
+      "sale_badge_color_scheme": "scheme-5",
+      "sold_out_badge_color_scheme": "scheme-3",
+      "brand_headline": "KJ Enterprises",
+      "brand_description": "<p>Artisanal bedsheets, cloud-soft comforters, and home accents woven from 100% breathable organic fibers.</p>",
+      "brand_image_width": 120,
+      "social_twitter_link": "",
+      "social_facebook_link": "https://facebook.com",
+      "social_pinterest_link": "https://pinterest.com",
+      "social_instagram_link": "https://instagram.com",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "currency_code_enabled": true,
+      "cart_type": "drawer",
+      "show_vendor": false,
+      "show_cart_note": true,
+      "cart_drawer_collection": "all",
+      "cart_color_scheme": "scheme-1",
+      "sections": {
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
+        }
+      }
+    }
+  }
+}

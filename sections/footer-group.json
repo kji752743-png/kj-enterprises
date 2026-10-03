@@ -1,0 +1,53 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand_info": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "menu_quick_links": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Sanctuary Collections",
+            "menu": "footer"
+          }
+        },
+        "care_info": {
+          "type": "text",
+          "settings": {
+            "heading": "Customer Care & Support",
+            "subtext": "<p>Mon – Sat: 10:00 AM – 7:00 PM IST<br>Email: support@kjenterprises.com<br>WhatsApp: Quick assistance available<br>100% Certified Cotton Guarantee</p>"
+          }
+        }
+      },
+      "block_order": [
+        "brand_info",
+        "menu_quick_links",
+        "care_info"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_enable": true,
+        "newsletter_heading": "Join Our VIP Circle",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

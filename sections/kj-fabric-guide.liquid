@@ -1,0 +1,126 @@
+<div class="kj-fabric-guide-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="kj-fabric-container">
+    <div class="kj-fabric-copy">
+      {% if section.settings.badge != blank %}
+        <span class="kj-badge">{{ section.settings.badge }}</span>
+      {% endif %}
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.text }}</p>
+      
+      <div class="kj-fabric-pillars">
+        {% for i in (1..4) %}
+          {% capture title_key %}feat_{{ i }}_title{% endcapture %}
+          {% capture desc_key %}feat_{{ i }}_desc{% endcapture %}
+          {% assign p_title = section.settings[title_key] %}
+          {% assign p_desc = section.settings[desc_key] %}
+          
+          {% if p_title != blank %}
+            <div class="kj-fabric-pill-card">
+              <div class="kj-fabric-pill-number">0{{ i }}</div>
+              <h4>{{ p_title }}</h4>
+              <p>{{ p_desc }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="kj-fabric-visual">
+      {% if section.settings.image != blank %}
+        {{ section.settings.image | image_url: width: 800 | image_tag: loading: 'lazy' }}
+      {% else %}
+        <img src="{{ 'category_comforters.jpg' | asset_url }}" alt="Quality Fabric" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+        <div class="kj-fabric-visual-inner" style="background: rgba(240,235,225,0.4);">
+          <h3>KJ Quality</h3>
+          <p>400TC Long-Staple Cotton</p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "KJ Fabric Guide",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Badge",
+      "default": "The KJ Craftsmanship"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Crafted for Comfort"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-2"
+    },
+    {
+      "type": "header",
+      "content": "Pillars"
+    },
+    {
+      "type": "text",
+      "id": "feat_1_title",
+      "label": "Feature 1 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feat_1_desc",
+      "label": "Feature 1 Description"
+    },
+    {
+      "type": "text",
+      "id": "feat_2_title",
+      "label": "Feature 2 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feat_2_desc",
+      "label": "Feature 2 Description"
+    },
+    {
+      "type": "text",
+      "id": "feat_3_title",
+      "label": "Feature 3 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feat_3_desc",
+      "label": "Feature 3 Description"
+    },
+    {
+      "type": "text",
+      "id": "feat_4_title",
+      "label": "Feature 4 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feat_4_desc",
+      "label": "Feature 4 Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "KJ Fabric Guide"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-2"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 48
+      }
+    },
+    "usp_footer": {
+      "type": "kj-usp-banner",
+      "blocks": {
+        "usp_1": {
+          "type": "usp_item",
+          "settings": {
+            "icon": "cotton",
+            "title": "100% Breathable Cotton",
+            "description": "Natural fibers safe for all skin types"
+          }
+        },
+        "usp_2": {
+          "type": "usp_item",
+          "settings": {
+            "icon": "thread",
+            "title": "400+ Thread Count",
+            "description": "Luxurious drape and lasting weave"
+          }
+        },
+        "usp_3": {
+          "type": "usp_item",
+          "settings": {
+            "icon": "wash",
+            "title": "Machine Washable",
+            "description": "Pre-shrunk, color-fast quality"
+          }
+        },
+        "usp_4": {
+          "type": "usp_item",
+          "settings": {
+            "icon": "shipping",
+            "title": "Pan-India Shipping",
+            "description": "Free delivery above ₹999 & easy 7-day exchange"
+          }
+        }
+      },
+      "block_order": [
+        "usp_1",
+        "usp_2",
+        "usp_3",
+        "usp_4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "usp_footer"
+  ]
+}

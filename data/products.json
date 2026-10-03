@@ -1,0 +1,236 @@
+[
+  {
+    "id": "kj-bed-01",
+    "slug": "monochrome-sateen-bedsheet-set",
+    "name": "Monochrome Sateen Bedsheet Set",
+    "category": "Bedsheets",
+    "categorySlug": "bedsheets",
+    "tagline": "Architectural Calm for the Modern Bedroom",
+    "shortDescription": "Crisp white bedsheet set tailored with clean border detail and matching pillowcases for serene bedroom styling.",
+    "description": "The Monochrome Sateen Bedsheet Set embodies K J ENTERPRISES commitment to understated luxury. Woven with precision to achieve a smooth, cool hand-feel, this set anchors contemporary sleeping spaces with quiet elegance. Designed to drape effortlessly across king and queen beds, it provides breathable comfort night after night.",
+    "images": [
+      "/images/hero/hero_bed_sheets.jpg",
+      "/images/categories/bedsheets.jpg"
+    ],
+    "featured": true,
+    "specifications": {
+      "dimensions": "King: 108 x 108 inches | Queen: 90 x 100 inches",
+      "material": "Combed Cotton Blend",
+      "color": "Crisp White / Subtle Slate Trim",
+      "design": "Clean Minimalist Border",
+      "careInstructions": "Machine wash cold on gentle cycle. Tumble dry low or line dry in shade. Warm iron if desired."
+    },
+    "story": {
+      "headline": "A Sanctuary of Quiet Reflection",
+      "paragraph": "Every element of the Monochrome Sateen Bedsheet Set is balanced to foster relaxation. The understated colorway creates an uncluttered visual plane, transforming your bedroom into a calm architectural retreat."
+    },
+    "relatedProductSlugs": [
+      "cloud-touch-all-season-comforter",
+      "structured-monochrome-cushion-cover"
+    ]
+  },
+  {
+    "id": "kj-bed-02",
+    "slug": "architectural-linen-bed-ensemble",
+    "name": "Architectural Minimalist Bed Linen",
+    "category": "Bedsheets",
+    "categorySlug": "bedsheets",
+    "tagline": "Natural Texture with Modern Drape",
+    "shortDescription": "Breathable neutral bedsheet featuring refined selvage hems and a soft, matte-finished weave.",
+    "description": "Crafted for lovers of natural textures and tactile richness, this bed linen balances relaxed ease with sharp tailoring. Its breathable construction encourages natural airflow while maintaining a structured, crisp look upon the bed.",
+    "images": [
+      "/images/categories/bedsheets.jpg",
+      "/images/hero/hero_bed_sheets.jpg"
+    ],
+    "featured": false,
+    "specifications": {
+      "dimensions": "King: 108 x 108 inches | Double: 90 x 100 inches",
+      "material": "Textured Cotton Weave",
+      "color": "Muted Stone Grey",
+      "design": "Matte Solid Texture",
+      "careInstructions": "Gentle wash with mild liquid detergent. Avoid harsh bleaches."
+    },
+    "story": {
+      "headline": "Tactile Modernism",
+      "paragraph": "The deliberate matte finish softens ambient lighting in your sleeping sanctuary, pairing effortlessly with timber, stone, and brass finishes in modern interior architecture."
+    },
+    "relatedProductSlugs": [
+      "tailored-duo-tone-comforter",
+      "architectural-sheer-drapery-panel"
+    ]
+  },
+  {
+    "id": "kj-comf-01",
+    "slug": "cloud-touch-all-season-comforter",
+    "name": "Cloud-Touch All-Season Comforter",
+    "category": "Comforters",
+    "categorySlug": "comforters",
+    "tagline": "Balanced Loft & Lightweight Insulation",
+    "shortDescription": "Evenly distributed channel-quilted comforter designed for year-round temperature regulation.",
+    "description": "The Cloud-Touch Comforter delivers an enveloping, cloud-like experience without unnecessary bulk. Engineered with box-stitched internal chambers to prevent shifting, this comforter provides uniform warmth whether in climate-controlled spaces or during seasonal transitions.",
+    "images": [
+      "/images/categories/comforters.jpg"
+    ],
+    "featured": true,
+    "specifications": {
+      "dimensions": "90 x 100 inches (Full/Queen/King compatible)",
+      "material": "Microfiber Casing with Resilient Loft Fill",
+      "color": "Pearl White / Soft Ash",
+      "design": "Internal Box Stitching",
+      "careInstructions": "Spot clean or gentle machine wash in front-loading washer. Dry thoroughly on low heat."
+    },
+    "story": {
+      "headline": "Weightless Indulgence",
+      "paragraph": "Designed to look sculpted and inviting whether smoothed over a made bed or loosely folded at the footboard. The balanced filling ensures breathable comfort without excessive heat retention."
+    },
+    "relatedProductSlugs": [
+      "monochrome-sateen-bedsheet-set",
+      "minimalist-accent-cushion-cover"
+    ]
+  },
+  {
+    "id": "kj-comf-02",
+    "slug": "tailored-duo-tone-comforter",
+    "name": "Tailored Duo-Tone Comforter",
+    "category": "Comforters",
+    "categorySlug": "comforters",
+    "tagline": "Reversible Editorial Bed Styling",
+    "shortDescription": "Modern dual-tone comforter offering versatile monochromatic styling for contemporary master suites.",
+    "description": "Featuring a reversible tonal palette of slate and warm white, this tailored comforter provides two distinct looks in one refined piece. Its tailored binding and plush fill make it an anchor for modern luxury bedrooms.",
+    "images": [
+      "/images/categories/comforters.jpg"
+    ],
+    "featured": false,
+    "specifications": {
+      "dimensions": "90 x 108 inches",
+      "material": "Brushed Cotton-Poly Shell",
+      "color": "Slate Grey / Pure White Reversible",
+      "design": "Dual-Tone Channel Quilting",
+      "careInstructions": "Professional laundering or delicate machine cycle recommended."
+    },
+    "story": {
+      "headline": "Versatile Monochrome Contrast",
+      "paragraph": "Flip the comforter to immediately transform the mood of your bedroom from crisp, airy white to dramatic, grounding slate."
+    },
+    "relatedProductSlugs": [
+      "architectural-linen-bed-ensemble",
+      "structured-monochrome-cushion-cover"
+    ]
+  },
+  {
+    "id": "kj-cush-01",
+    "slug": "structured-monochrome-cushion-cover",
+    "name": "Structured Monochrome Cushion Cover",
+    "category": "Cushion Covers",
+    "categorySlug": "cushion-covers",
+    "tagline": "Geometric Precision & Tactile Contrast",
+    "shortDescription": "Architectural square cushion cover tailored with hidden zipper closure and high-density woven face.",
+    "description": "Elevate your sofa, daybed, or bedroom layering with the Structured Monochrome Cushion Cover. Featuring subtle woven geometry and a concealed zipper, this cover provides structural posture that holds its shape gracefully.",
+    "images": [
+      "/images/categories/cushions.jpg"
+    ],
+    "featured": true,
+    "specifications": {
+      "dimensions": "18 x 18 inches (45 x 45 cm)",
+      "material": "Woven Jacquard & Heavyweight Cotton",
+      "color": "Charcoal Black & Optical White",
+      "design": "Subtle Linear Geometric Grid",
+      "careInstructions": "Dry clean recommended or gentle hand wash inside out in cold water."
+    },
+    "story": {
+      "headline": "The Power of the Accent",
+      "paragraph": "Carefully considered proportions make this cushion cover the ideal punctuation mark for deep low-profile sofas and minimalist lounge seating."
+    },
+    "relatedProductSlugs": [
+      "monochrome-sateen-bedsheet-set",
+      "minimalist-accent-cushion-cover"
+    ]
+  },
+  {
+    "id": "kj-cush-02",
+    "slug": "minimalist-accent-cushion-cover",
+    "name": "Minimalist Accent Cushion Cover",
+    "category": "Cushion Covers",
+    "categorySlug": "cushion-covers",
+    "tagline": "Textured Warm Neutral Accent",
+    "shortDescription": "Contemporary bouclé-style cushion cover designed for plush layering and warm textural contrast.",
+    "description": "Add tactile warmth to modern living spaces with this minimalist accent cushion cover. The rich, nubby texture catches ambient light beautifully, creating subtle depth against smooth leather or timber furniture.",
+    "images": [
+      "/images/categories/cushions.jpg"
+    ],
+    "featured": false,
+    "specifications": {
+      "dimensions": "16 x 16 inches (40 x 40 cm)",
+      "material": "Textured Yarn Blend",
+      "color": "Warm Light Grey",
+      "design": "Micro-Texture Weave",
+      "careInstructions": "Gentle spot clean with damp cloth or dry clean."
+    },
+    "story": {
+      "headline": "Subtle Tactility",
+      "paragraph": "Texture becomes the color. This cushion relies on depth and shadow rather than bright pigments to make a sophisticated design statement."
+    },
+    "relatedProductSlugs": [
+      "structured-monochrome-cushion-cover",
+      "cloud-touch-all-season-comforter"
+    ]
+  },
+  {
+    "id": "kj-curt-01",
+    "slug": "architectural-sheer-drapery-panel",
+    "name": "Architectural Sheer Drapery Panel",
+    "category": "Curtains",
+    "categorySlug": "curtains",
+    "tagline": "Filtered Daylight & Spatial Grace",
+    "shortDescription": "Airy floor-to-ceiling sheer curtain panel designed to soften daylight while preserving expansive views.",
+    "description": "The Architectural Sheer Drapery Panel gently diffuses harsh sunlight into a soft, ambient glow. Engineered with weighted bottom hems to guarantee a crisp, vertical cascade, it adds height and grandeur to living rooms and master suites.",
+    "images": [
+      "/images/categories/curtains.jpg"
+    ],
+    "featured": true,
+    "specifications": {
+      "dimensions": "Width: 54 inches | Lengths: 84, 96, 108 inches",
+      "material": "Airy Weft Polyester & Linen Blend",
+      "color": "Muted Alabaster",
+      "design": "Semi-Translucent Sheer with Weighted Hem",
+      "careInstructions": "Machine wash cold in mesh laundry bag. Hang damp to release wrinkles naturally."
+    },
+    "story": {
+      "headline": "Sculpting Natural Light",
+      "paragraph": "Light transforms architecture. These sheer draperies diffuse harsh midday sun into a warm, gallery-like illumination that elevates furniture and finishes."
+    },
+    "relatedProductSlugs": [
+      "tailored-blackout-curtain-pair",
+      "monochrome-sateen-bedsheet-set"
+    ]
+  },
+  {
+    "id": "kj-curt-02",
+    "slug": "tailored-blackout-curtain-pair",
+    "name": "Tailored Blackout Curtain Pair",
+    "category": "Curtains",
+    "categorySlug": "curtains",
+    "tagline": "Thermal Comfort & Total Light Control",
+    "shortDescription": "Heavyweight architectural drape pair offering complete light blockout and acoustic dampening.",
+    "description": "Crafted for undisturbed rest and media rooms, the Tailored Blackout Curtain Pair combines a dense front fabric with an opaque thermal backing. It blocks exterior illumination, dampens ambient street noise, and insulates against drafts.",
+    "images": [
+      "/images/categories/curtains.jpg"
+    ],
+    "featured": false,
+    "specifications": {
+      "dimensions": "Each Panel: 52 x 96 inches (Pair includes 2 panels)",
+      "material": "Triple-Weave Heavyweight Fabric",
+      "color": "Deep Charcoal / Shadow",
+      "design": "Deep Pinch Pleat / Rod Pocket Versatile Header",
+      "careInstructions": "Dry clean only to protect thermal backing."
+    },
+    "story": {
+      "headline": "Quietude & Privacy",
+      "paragraph": "Create an immersive cocoon of serenity. The substantial drape and light-blocking weave guarantee peaceful rest, regardless of the time of day."
+    },
+    "relatedProductSlugs": [
+      "architectural-sheer-drapery-panel",
+      "cloud-touch-all-season-comforter"
+    ]
+  }
+]

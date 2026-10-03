@@ -1,0 +1,35 @@
+<div class="kj-sticky-atc" id="KJStickyATC">
+  <div class="kj-sticky-info">
+    {% if product.featured_image != blank %}
+      {{ product.featured_image | image_url: width: 104 | image_tag: class: 'kj-sticky-img', loading: 'lazy' }}
+    {% endif %}
+    <div>
+      <h4 class="kj-sticky-title">{{ product.title }}</h4>
+      <p class="kj-sticky-price">{{ product.price | money }}</p>
+    </div>
+  </div>
+  <button type="button" class="kj-sticky-btn" onclick="document.querySelector('.product-form__submit').click();" {% unless product.available %}disabled{% endunless %}>
+    {% if product.available %}Add to Cart{% else %}Sold Out{% endif %}
+  </button>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const stickyATC = document.getElementById('KJStickyATC');
+    const mainForm = document.querySelector('.product-form__submit');
+    if (!stickyATC || !mainForm) return;
+    const observer = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) {
+        stickyATC.classList.remove('is-visible');
+      } else {
+        stickyATC.classList.add('is-visible');
+      }
+    }, { threshold: 0 });
+    observer.observe(mainForm);
+  });
+</script>
+{% schema %}
+{
+  "name": "KJ Sticky Add to Cart",
+  "presets": [{"name": "KJ Sticky Add to Cart"}]
+}
+{% endschema %}

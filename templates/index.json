@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {"type":"heading","settings":{"heading":"Where Comfort Meets Craftsmanship","heading_size":"h1"}},
+        "text": {"type":"text","settings":{"text":"Discover our range of premium 400TC bedsheets, cloud-soft comforters, cushion covers, and curtains — crafted from 100% certified long-staple cotton.","text_style":"subtitle"}},
+        "buttons": {"type":"buttons","settings":{"button_label_1":"Shop Collections","button_link_1":"shopify://collections/all","button_style_secondary_1":false,"button_label_2":"Our Story","button_link_2":"shopify://pages/about","button_style_secondary_2":true}}
+      },
+      "block_order":["heading","text","buttons"],
+      "settings":{
+        "image_overlay_opacity":30,
+        "image_height":"large",
+        "desktop_content_position":"middle-center",
+        "show_text_box":false,
+        "image_behavior":"ambient",
+        "desktop_content_alignment":"center",
+        "color_scheme":"scheme-3",
+        "mobile_content_alignment":"center",
+        "stack_images_on_mobile":false,
+        "show_text_below":false
+      }
+    },
+    "kj_usp": {
+      "type": "kj-usp-banner",
+      "blocks": {
+        "usp_1":{"type":"usp_item","settings":{"icon":"cotton","title":"100% Pure Cotton","description":"Hypoallergenic long-staple certified fibres"}},
+        "usp_2":{"type":"usp_item","settings":{"icon":"thread","title":"400+ Thread Count","description":"Silky sateen & crisp percale weave"}},
+        "usp_3":{"type":"usp_item","settings":{"icon":"wash","title":"Machine Washable","description":"Colorfast & pre-shrunk for zero fading"}},
+        "usp_4":{"type":"usp_item","settings":{"icon":"shipping","title":"Free Express Delivery","description":"Fast dispatch across India above ₹999"}}
+      },
+      "block_order":["usp_1","usp_2","usp_3","usp_4"],
+      "settings":{"color_scheme":"scheme-1"}
+    },
+    "kj_categories": {
+      "type": "kj-category-grid",
+      "blocks": {
+        "cat_bedsheets":{"type":"category_card","settings":{"category_type":"bedsheets","title":"Bedsheets & Sets","subtext":"King, Queen & Single in 400TC cotton","btn_label":"Shop Bedsheets"}},
+        "cat_comforters":{"type":"category_card","settings":{"category_type":"comforters","title":"All-Season Comforters","subtext":"Cloud-soft microfiber & cotton fill","btn_label":"Shop Comforters"}},
+        "cat_cushions":{"type":"category_card","settings":{"category_type":"cushions","title":"Cushion Covers","subtext":"Velvet, linen & embroidered art","btn_label":"Shop Cushions"}},
+        "cat_curtains":{"type":"category_card","settings":{"category_type":"curtains","title":"Curtains & Drapes","subtext":"Sheer light & luxury blackout","btn_label":"Shop Curtains"}}
+      },
+      "block_order":["cat_bedsheets","cat_comforters","cat_cushions","cat_curtains"],
+      "settings":{"subheading":"Our Collections","title":"Shop By Category","description":"Handpicked home textiles for every corner of your sanctuary.","color_scheme":"scheme-1"}
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings":{
+        "title":"Our Best Sellers",
+        "heading_size":"h2",
+        "description":"<p>Loved by thousands of homes across India — our most-rated bedding and home textile essentials.</p>",
+        "show_description":true,
+        "description_style":"subtitle",
+        "collection":"all",
+        "products_to_show":8,
+        "columns_desktop":4,
+        "color_scheme":"scheme-1",
+        "full_width":false,
+        "show_view_all":true,
+        "view_all_style":"solid",
+        "enable_desktop_slider":false,
+        "swipe_on_mobile":true,
+        "image_ratio":"square",
+        "image_shape":"default",
+        "show_secondary_image":true,
+        "show_vendor":false,
+        "show_rating":true,
+        "quick_add":"standard",
+        "columns_mobile":"2",
+        "padding_top":60,
+        "padding_bottom":60
+      }
+    },
+    "kj_editorial": {
+      "type": "kj-editorial",
+      "settings":{
+        "badge":"The KJ Promise",
+        "heading":"Hotel-Grade Luxury for Your Home",
+        "text":"Every thread we use is hand-selected long-staple cotton, ethically sourced and woven to perfection. From our 400TC sateen bedsheets to our bespoke blackout curtains — each piece is a promise of enduring quality.",
+        "button_label":"Discover Our Story",
+        "button_link":"shopify://pages/about",
+        "reverse_layout":false,
+        "color_scheme":"scheme-2"
+      }
+    },
+    "kj_fabric_story": {
+      "type": "kj-fabric-guide",
+      "settings":{
+        "badge":"The KJ Craftsmanship",
+        "heading":"Crafted for Comfort, Built to Last",
+        "text":"At KJ Enterprises, luxury begins with honesty. Every thread we use is ethically sourced long-staple cotton — breathable, skin-safe, and engineered to soften beautifully with every wash.",
+        "color_scheme":"scheme-2",
+        "feat_1_title":"Long-Staple Cotton",
+        "feat_1_desc":"Finer combed yarns eliminate pilling and maximise softness wash after wash.",
+        "feat_2_title":"400TC Sateen Weave",
+        "feat_2_desc":"Silky-smooth finish with natural lustre that stays crisp season after season.",
+        "feat_3_title":"Non-Toxic & Certified",
+        "feat_3_desc":"Eco-friendly dyes with zero harmful chemicals — safe for sensitive skin.",
+        "feat_4_title":"Pre-Shrunk & Durable",
+        "feat_4_desc":"Engineered for machine washing with zero shrinkage or colour fade."
+      }
+    },
+    "customer_reviews": {
+      "type": "multicolumn",
+      "blocks": {
+        "rev_1":{"type":"column","settings":{"title":"★★★★★  Buttery Soft Sheets","text":"<p>The 400TC bedsheet set feels exactly like a 5-star hotel — stays cool all night and fits our deep mattress perfectly.</p><p><strong>— Ananya S., Mumbai</strong></p>"}},
+        "rev_2":{"type":"column","settings":{"title":"★★★★★  Cloud-Like Comforter","text":"<p>Lightweight yet perfectly warm for AC rooms. The fill doesn't bunch even after repeated washing. Outstanding quality.</p><p><strong>— Rohit M., Bengaluru</strong></p>"}},
+        "rev_3":{"type":"column","settings":{"title":"★★★★★  Stunning Curtains","text":"<p>The texture and weight of the curtains completely transformed our living room. The cushion covers add such a chic aesthetic.</p><p><strong>— Priya D., New Delhi</strong></p>"}}
+      },
+      "block_order":["rev_1","rev_2","rev_3"],
+      "settings":{
+        "title":"Loved by Homes Across India",
+        "heading_size":"h2",
+        "image_width":"full",
+        "image_ratio":"adapt",
+        "columns_desktop":3,
+        "column_alignment":"center",
+        "background_style":"primary",
+        "button_label":"Shop All Products",
+        "button_link":"shopify://collections/all",
+        "color_scheme":"scheme-1",
+        "columns_mobile":"1",
+        "swipe_on_mobile":true,
+        "padding_top":60,
+        "padding_bottom":60
+      }
+    },
+    "newsletter_signup": {
+      "type": "newsletter",
+      "blocks": {
+        "heading":{"type":"heading","settings":{"heading":"Join the KJ Family","heading_size":"h2"}},
+        "paragraph":{"type":"paragraph","settings":{"text":"<p>Get 10% off your first order plus exclusive early access to new collections, care guides, and VIP sales events.</p>"}},
+        "email_form":{"type":"email_form","settings":{}}
+      },
+      "block_order":["heading","paragraph","email_form"],
+      "settings":{"color_scheme":"scheme-3","full_width":true,"padding_top":60,"padding_bottom":60}
+    }
+  },
+  "order":["hero_banner","kj_usp","kj_categories","featured_collection","kj_editorial","kj_fabric_story","customer_reviews","newsletter_signup"]
+}

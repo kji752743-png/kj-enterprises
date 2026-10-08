@@ -2,12 +2,16 @@ import { Metadata } from "next";
 import ContactForm from "@/components/contact/ContactForm";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { getBrandInfo } from "@/lib/products";
+import { generateFAQSchema } from "@/lib/seo";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Bespoke Consultations & Direct Inquiries | K J ENTERPRISES",
+  title: "Bespoke Consultations & Direct Inquiries",
   description:
     "Connect directly with K J ENTERPRISES for residential projects, custom textile sizing, and bespoke home consultations. Phone: +91 88658 74772 | Email: kji752743@gmail.com.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 const faqs = [
@@ -31,11 +35,17 @@ const faqs = [
 
 export default function ContactPage() {
   const brand = getBrandInfo();
+  const faqSchema = generateFAQSchema(faqs.map((f) => ({ question: f.q, answer: f.a })));
 
   return (
     <div className="bg-white text-black py-16 sm:py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
+          as="h1"
           eyebrow="CONCIERGE & BESPOKE INQUIRIES"
           title="Connect with K J ENTERPRISES"
           subtitle="Whether you are curating an intimate master bedroom or outfitting a complete residence, our dedicated specialists are here to guide your textile selections."

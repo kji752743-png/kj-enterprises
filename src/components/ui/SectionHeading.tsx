@@ -1,9 +1,10 @@
-﻿interface SectionHeadingProps {
+interface SectionHeadingProps {
   eyebrow?: string;
   title: string;
   subtitle?: string;
   align?: "left" | "center";
   className?: string;
+  as?: "h1" | "h2" | "h3";
 }
 
 export default function SectionHeading({
@@ -12,8 +13,10 @@ export default function SectionHeading({
   subtitle,
   align = "center",
   className = "",
+  as = "h2",
 }: SectionHeadingProps) {
   const isCenter = align === "center";
+  const HeadingTag = as;
 
   return (
     <div
@@ -26,9 +29,9 @@ export default function SectionHeading({
           {eyebrow}
         </span>
       )}
-      <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-black tracking-tight leading-tight">
+      <HeadingTag className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-black tracking-tight leading-tight">
         {title}
-      </h2>
+      </HeadingTag>
       {subtitle && (
         <p className="text-sm sm:text-base text-neutral-600 leading-relaxed font-light">
           {subtitle}

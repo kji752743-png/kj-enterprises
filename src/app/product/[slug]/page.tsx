@@ -1,4 +1,4 @@
-﻿import { Metadata } from "next";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ProductDetailView from "@/components/product/ProductDetailView";
 import {
@@ -6,7 +6,12 @@ import {
   getProductBySlug,
   getRelatedProducts,
 } from "@/lib/products";
-import { generateProductSchema, generateBreadcrumbSchema } from "@/lib/seo";
+import {
+  generateProductSchema,
+  generateBreadcrumbSchema,
+  generateFAQSchema,
+} from "@/lib/seo";
+import { CATEGORY_GUIDES } from "@/lib/guides";
 
 interface Props {
   params: {
@@ -30,6 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: product.name,
     description: product.shortDescription,
+    alternates: {
+      canonical: `/product/${params.slug}`,
+    },
     openGraph: {
       title: `${product.name} | K J ENTERPRISES`,
       description: product.shortDescription,
@@ -60,6 +68,9 @@ export default function ProductPage({ params }: Props) {
     { name: product.name, url: `/product/${product.slug}` },
   ]);
 
+  const guide = CATEGORY_GUIDES[product.categorySlug];
+  const faqSchema = guide ? generateFAQSchema(guide.faqs) : null;
+
   return (
     <>
       <script
@@ -70,6 +81,12 @@ export default function ProductPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <ProductDetailView product={product} relatedProducts={related} />
     </>
   );

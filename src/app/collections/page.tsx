@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Curated Home Collections | Bedsheets, Comforters, Cushions & Curtains",
   description:
     "Browse the complete luxury home furnishings archive by K J ENTERPRISES. Discover premium bed linen ensembles, cloud-loft comforters, designer cushion covers, and tailored curtains.",
+  alternates: {
+    canonical: "/collections",
+  },
 };
 
 export default function CollectionsPage() {
@@ -16,6 +19,7 @@ export default function CollectionsPage() {
     <div className="bg-white text-black py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
+          as="h1"
           eyebrow="THE COMPLETE ARCHIVE"
           title="Curated Home Collections"
           subtitle="Explore architectural textiles designed with disciplined monochromatic palettes, refined textures, and enduring proportions for intimate and shared spaces."

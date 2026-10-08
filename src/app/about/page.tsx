@@ -6,9 +6,12 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { getAllCategories, getBrandInfo } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Our Story & Design Philosophy | K J ENTERPRISES",
+  title: "Our Story & Design Philosophy",
   description:
     "Discover the philosophy behind K J ENTERPRISES. We create architectural home furnishings celebrating the harmony between tactile indulgence, minimalist aesthetics, and everyday living.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

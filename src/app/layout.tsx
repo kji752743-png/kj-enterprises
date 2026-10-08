@@ -1,8 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import SmoothScroll from "@/components/layout/SmoothScroll";
-import { siteConfig, generateOrganizationSchema } from "@/lib/seo";
+import { siteConfig, generateOrganizationSchema, generateWebSiteSchema } from "@/lib/seo";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     template: "%s | K J ENTERPRISES",
   },
   description: siteConfig.description,
+  alternates: {
+    canonical: "./",
+  },
   keywords: [
     "K J ENTERPRISES",
     "home furnishing",
@@ -57,6 +60,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const orgSchema = generateOrganizationSchema();
+  const webSiteSchema = generateWebSiteSchema();
 
   return (
     <html lang="en">
@@ -64,6 +68,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
         />
       </head>
       <body className="font-sans min-h-screen flex flex-col bg-white text-black selection:bg-black selection:text-white">

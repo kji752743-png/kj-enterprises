@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import SectionHeading from "../ui/SectionHeading";
 
@@ -31,9 +31,9 @@ export default function LifestyleSection() {
     <section className="py-24 sm:py-32 bg-white text-black border-b border-neutral-100">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
-          eyebrow="Inspiration"
+          eyebrow="RESIDENTIAL INSPIRATION"
           title="Living with K J ENTERPRISES"
-          subtitle="Discover how thoughtful textile layering elevates atmosphere, texture, and everyday tranquility."
+          subtitle="Discover how thoughtful textile layering elevates spatial atmosphere, tactile warmth, and everyday tranquility."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

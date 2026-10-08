@@ -1,4 +1,4 @@
-﻿import { Metadata } from "next";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -6,9 +6,9 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { getAllCategories, getBrandInfo } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "About Our Brand & Philosophy",
+  title: "Our Story & Design Philosophy | K J ENTERPRISES",
   description:
-    "Discover the philosophy behind K J ENTERPRISES. Thoughtfully designed home furnishings bringing quiet luxury, tactile comfort, and architectural simplicity to modern living spaces.",
+    "Discover the philosophy behind K J ENTERPRISES. We create architectural home furnishings celebrating the harmony between tactile indulgence, minimalist aesthetics, and everyday living.",
 };
 
 export default function AboutPage() {
@@ -21,10 +21,10 @@ export default function AboutPage() {
       <section className="py-20 sm:py-28 border-b border-neutral-100">
         <div className="max-w-5xl mx-auto px-6 sm:px-8 text-center space-y-4">
           <span className="text-[11px] font-medium tracking-ultra uppercase text-neutral-500 block">
-            About K J ENTERPRISES
+            ABOUT K J ENTERPRISES • ATELIER STORY
           </span>
           <h1 className="font-serif text-4xl sm:text-6xl font-normal leading-tight tracking-tight">
-            Crafting Quiet Elegance for the Contemporary Home
+            Crafting Sanctuaries of Quiet Luxury & Comfort
           </h1>
           <p className="text-base sm:text-lg text-neutral-600 font-light max-w-2xl mx-auto leading-relaxed pt-2">
             {brand.shortStatement}

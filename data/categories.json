@@ -2,33 +2,33 @@
   {
     "id": "cat-bedsheets",
     "slug": "bedsheets",
-    "name": "Bedsheets",
-    "tagline": "Restful Sophistication",
-    "description": "Refined bedding designed with clean finishes, soothing tactile texture, and enduring drape for restful bedrooms.",
+    "name": "Bedsheets & Linen Ensembles",
+    "tagline": "Restorative Sleep & Hotel-Grade Sateen",
+    "description": "Silky smooth sateen and breathable cotton bedsheet sets tailored with crisp border hems for serene, architectural bedroom sanctuaries.",
     "heroImage": "/images/categories/bedsheets.jpg"
   },
   {
     "id": "cat-comforters",
     "slug": "comforters",
-    "name": "Comforters",
-    "tagline": "Subtle Warmth & Weight",
-    "description": "Tailored all-season comforters providing balanced insulation, plush softness, and contemporary bedroom styling.",
+    "name": "Cloud-Touch All-Season Comforters",
+    "tagline": "Weightless Warmth & Tailored Box-Quilting",
+    "description": "Balanced micro-loft comforters providing uniform climate control, feather-light loft, and dual-tone monochromatic bedroom styling.",
     "heroImage": "/images/categories/comforters.jpg"
   },
   {
     "id": "cat-cushions",
     "slug": "cushion-covers",
-    "name": "Cushion Covers",
-    "tagline": "Architectural Accents",
-    "description": "Structured decorative cushion covers crafted to complement minimalist sofas, lounge chairs, and bed layering.",
+    "name": "Architectural Cushion Covers",
+    "tagline": "Tactile Accents & Sculptural Geometry",
+    "description": "Structured square cushion covers woven with rich jacquard geometry, bouclé textures, and concealed zippers for contemporary lounge seating.",
     "heroImage": "/images/categories/cushions.jpg"
   },
   {
     "id": "cat-curtains",
     "slug": "curtains",
-    "name": "Curtains",
-    "tagline": "Light & Spatial Presence",
-    "description": "Gracefully draping curtain panels engineered for ambient light filtration, privacy, and architectural ceiling-to-floor elevation.",
+    "name": "Architectural Curtains & Drapes",
+    "tagline": "Ambient Light Diffusion & Spatial Elevation",
+    "description": "Cascading floor-to-ceiling curtain panels engineered with weighted hems for ambient daylight filtration, acoustic comfort, and privacy.",
     "heroImage": "/images/categories/curtains.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -36,7 +36,7 @@ export default function Hero() {
           className="inline-block mb-4"
         >
           <span className="text-xs sm:text-sm font-medium tracking-ultra uppercase text-neutral-300 border-b border-neutral-500 pb-1">
-            K J ENTERPRISES • Home Furnishing
+            K J ENTERPRISES • LUXURY HOME FURNISHINGS
           </span>
         </motion.div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
           className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-normal tracking-tight text-white leading-[1.08] mb-6"
         >
-          Style Meets Comfort
+          Where Comfort Meets Timeless Craft
         </motion.h1>
 
         <motion.p
@@ -55,7 +55,7 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.6 }}
           className="text-base sm:text-lg md:text-xl text-neutral-200 max-w-2xl mx-auto font-light leading-relaxed mb-10"
         >
-          Thoughtfully designed home furnishings for beautiful, comfortable living.
+          Thoughtfully curated home furnishings designed to bring quiet luxury, serene textures, and everyday comfort to modern residential living.
         </motion.p>
 
         <motion.div

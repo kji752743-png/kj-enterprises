@@ -5,9 +5,9 @@ import { getBrandInfo } from "@/lib/products";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact & Consultations",
+  title: "Bespoke Consultations & Direct Inquiries | K J ENTERPRISES",
   description:
-    "Connect with K J ENTERPRISES. Reach out for home furnishing inquiries, bespoke drapery sizing, fabric consultations, and residential orders.",
+    "Connect directly with K J ENTERPRISES for residential projects, custom textile sizing, and bespoke home consultations. Phone: +91 88658 74772 | Email: kji752743@gmail.com.",
 };
 
 const faqs = [
@@ -36,9 +36,9 @@ export default function ContactPage() {
     <div className="bg-white text-black py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
-          eyebrow="Direct Inquiries"
+          eyebrow="CONCIERGE & BESPOKE INQUIRIES"
           title="Connect with K J ENTERPRISES"
-          subtitle="Whether you are curating a single room or outfitting an entire residence, our team is at your disposal."
+          subtitle="Whether you are curating an intimate master bedroom or outfitting a complete residence, our dedicated specialists are here to guide your textile selections."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 pt-6">

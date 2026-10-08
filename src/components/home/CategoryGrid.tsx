@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import SectionHeading from "../ui/SectionHeading";
@@ -12,9 +12,9 @@ export default function CategoryGrid() {
     <section className="py-24 sm:py-32 bg-neutral-50 border-b border-neutral-200">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
-          eyebrow="Collections"
-          title="Product Categories"
-          subtitle="Explore our thoughtfully curated collections designed to elevate the intimate and shared spaces of your home."
+          eyebrow="PORTFOLIO ARCHIVE"
+          title="Foundational Product Categories"
+          subtitle="Explore our curated collections of bedsheets, all-season comforters, designer cushion covers, and cascading curtains."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">

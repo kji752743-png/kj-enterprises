@@ -1,4 +1,4 @@
-﻿import { Metadata } from "next";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CollectionBrowser from "@/components/collections/CollectionBrowser";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Category Not Found" };
   }
   return {
-    title: `${category.name} Collection`,
+    title: `${category.name} | Luxury Home Textiles`,
     description: category.description,
   };
 }
@@ -40,7 +40,7 @@ export default function CategoryPage({ params }: Props) {
     <div className="bg-white text-black py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
-          eyebrow="Category"
+          eyebrow="CURATED CATEGORY"
           title={category.name}
           subtitle={category.description}
         />

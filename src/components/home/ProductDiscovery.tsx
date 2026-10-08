@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -29,9 +29,9 @@ export default function ProductDiscovery() {
     <section className="py-24 sm:py-32 bg-white text-black border-b border-neutral-100">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <SectionHeading
-          eyebrow="Discovery"
-          title="Curated Selections"
-          subtitle="Explore our design portfolio. Filter by room requirement to discover pieces tailored for your home."
+          eyebrow="PRODUCT DISCOVERY"
+          title="Curated Design Portfolio"
+          subtitle="Discover pieces tailored for modern living. Filter by category to inspect textiles engineered for comfort and elegance."
         />
 
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-12">

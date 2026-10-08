@@ -2,9 +2,9 @@ import { Product } from "../types";
 
 export const siteConfig = {
   name: "K J ENTERPRISES",
-  title: "K J ENTERPRISES | Premium Home Furnishings & Luxury Bedding",
+  title: "K J ENTERPRISES | Luxury Home Furnishings & Bespoke Living Textiles",
   description:
-    "Thoughtfully designed home furnishings for beautiful, comfortable living. Explore our refined collections of bedsheets, comforters, cushion covers, and curtains.",
+    "Transform your living spaces into sanctuaries of calm elegance. Explore K J ENTERPRISES' curated portfolio of premium bedsheets, cloud-soft comforters, designer cushion covers, and architectural curtains.",
   url: "https://kjenterprises.com",
   ogImage: "/images/hero/hero_bed_sheets.jpg",
 };
